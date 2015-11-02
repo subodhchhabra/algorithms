@@ -1,1 +1,1 @@
-#### Solutions to random algorith problems
+#### Solutions to random algorithmic problems
