@@ -11,7 +11,7 @@ def even_fibonaci(n):
     # the problem starts with 1 and 2
     fib_one = 1
     fib_two = 2
-    print fib_one, fib_two # print current fib numbers
+    # print fib_one, fib_two # print current fib numbers
     suma = 0
     while fib_one < n and fib_two < n:
         # find even fibonacci numbers and assign new sum value
@@ -19,14 +19,17 @@ def even_fibonaci(n):
             suma = suma + fib_one
         if fib_two%2 == 0:
             suma = suma + fib_two
-        print "this is sum: ",  suma
+        #print "this is sum: ",  suma
         # assign next fibonnaci numbers
         fib_one = fib_two + fib_one
         fib_two = fib_two + fib_one
-        print fib_one, fib_two
+        #print fib_one, fib_two
+        
+    print suma
 
 # call examples
 even_fibonaci(4000000)
 even_fibonaci(400)
 even_fibonaci(1000000)
 even_fibonaci(3000)
+even_fibonaci(75025)
