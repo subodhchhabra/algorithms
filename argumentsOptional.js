@@ -16,13 +16,13 @@ function add(arg) {
   for(var i = 0; i < arguments.length; i++) {
     if(typeof arguments[i] !== "number"){
       return undefined;
-    } 
+    }
   }
-  
+
   if(arguments.length === 2){
     return arguments[0] + arguments[1];
   }
- 
+
   return function(x) {
     if(typeof x !== "number"){
       return undefined;
@@ -32,8 +32,8 @@ function add(arg) {
   };
 
 }
-add(2, 3) //should return 5.
-add(2)(3) //should return 5.
-add("http://bit.ly/IqT6zt") //should return undefined.
-add(2, "3") //should return undefined.
-add(2)([3]) //should return undefined.
+add(2, 3); //should return 5.
+add(2)(3); //should return 5.
+add("http://bit.ly/IqT6zt"); //should return undefined.
+add(2, "3"); //should return undefined.
+add(2)([3]); //should return undefined.

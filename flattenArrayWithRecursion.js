@@ -15,7 +15,7 @@ function steamroller(arr) {
     }
   };
 
-  
+
   for (var j = 0; j < arr.length; j++) {
     roller(arr[j]);
   }
@@ -23,8 +23,7 @@ function steamroller(arr) {
   return answerArray;
 }
 
-steamroller([[["a"]], [["b"]]]) //should return ["a", "b"].
-steamroller([1, [2], [3, [[4]]]]) //should return [1, 2, 3, 4].
-steamroller([1, [], [3, [[4]]]]) //should return [1, 3, 4].
-steamroller([1, {}, [3, [[4]]]]) //should return [1, {}, 3, 4].
-
+steamroller([[["a"]], [["b"]]]); //should return ["a", "b"].
+steamroller([1, [2], [3, [[4]]]]); //should return [1, 2, 3, 4].
+steamroller([1, [], [3, [[4]]]]); //should return [1, 3, 4].
+steamroller([1, {}, [3, [[4]]]]); //should return [1, {}, 3, 4].
