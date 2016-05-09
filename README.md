@@ -78,3 +78,8 @@ Sum all the prime numbers up to and including the provided number.
 Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a "..." ending.
 #### [truthInArray.js](truthInArray.js)
 Create a function that looks through an array (first argument) and returns the first element in the array that passes a truth test (second argument).
+
+#### [caesarsCipher.js](caesarsCipher.js)
+One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
+
+A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.
