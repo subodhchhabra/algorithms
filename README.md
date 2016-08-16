@@ -5,7 +5,7 @@ Solutions to random algorithmic problems.
 ### Basic Algorithm Scripting
 * [Reverse a String](#reverse-a-string)
 * [Factorialize a Number](#factorialize-a-number)
-* [Check for Palindromes](#check-for-palindromes))
+* [Check for Palindromes](#check-for-palindromes)
 * [Find the Longest Word in a String](#find-the-longest-word-in-a-string)
 * [Title Case a Sentence](#title-case-a-sentence)
 * [Return Largest Numbers in Arrays](#return-largest-numbers-in-arrays)
