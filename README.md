@@ -1,7 +1,7 @@
 
 * Free Code Camp 
     * Basic Algorithm Scripting
-        * [Reverse a String](#Reverse-a-String)
+        * [Reverse a String](#reverse-a-string)
         * [Factorialize a Number]()
         * [Check for Palindromes]()
         * [Find the Longest Word in a String]()
