@@ -130,6 +130,31 @@ Compare and update the inventory stored in a 2D array against a second 2D array 
 
 
 #### Reverse a String
+##### Rules from [FCC](https://www.freecodecamp.com/challenges/reverse-a-string) as of 2016/08/16.
+
+1. Reverse the provided string.
+2. You may need to turn the string into an array before you can reverse it.
+3. Your result must be a string.
+
+##### My solution
+```javascript
+function reverseString(str) {
+  var toReverse = str.split("");
+  str = toReverse.reverse().join("");
+  return str;
+}
+
+reverseString('hello');
+// "olleh"
+reverseString("Sylwia");
+// "aiwlyS"
+reverseString("Howdy");
+// "ydwoH"
+reverseString("Greetings from Earth");
+// "htraE morf sgniteerG"
+```
+
+
 #### Factorialize a Number
 #### Check for Palindromes
 #### Find the Longest Word in a String
