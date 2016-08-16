@@ -1,3 +1,27 @@
+
+* Free Code Camp 
+    * Basic Algorithm Scripting
+        * [Reverse a String](#Reverse-a-String)
+        * [Factorialize a Number]()
+        * [Check for Palindromes]()
+        * [Find the Longest Word in a String]()
+        * [Title Case a Sentence]()
+        * [Return Largest Numbers in Arrays]()
+        * [Confirm the Ending]()
+        * [Repeat a string repeat a string]()
+        * [Truncate a string]()
+        * [Chunky Monkey]()
+        * [Slasher Flick]()
+        * [Mutations]()
+        * [Falsy Bouncer]()
+        * [Seek and Destroy]()
+        * [Where do I belong]()
+        * [Caesars Cipher]()
+
+
+
+
+
 ### Practise area
 Solutions to random algorithmic problems
 
@@ -97,3 +121,29 @@ The user may fill out the form field any way they choose as long as it is a vali
 1 555 555 5555
 ```
 For this challenge you will be presented with a string such as 800-692-7753 or 8oo-six427676;laskdjf. Your job is to validate or reject the US phone number based on any combination of the formats provided above. The area code is required. If the country code is provided, you must confirm that the country code is 1. Return true if the string is a valid US phone number; otherwise return false.
+
+#### [inventoryUpdate.js](inventoryUpdate.js)
+Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
+
+### Reverse a String
+
+        * [Reverse a String]()
+        * [Factorialize a Number]()
+        * [Check for Palindromes]()
+        * [Find the Longest Word in a String]()
+        * [Title Case a Sentence]()
+        * [Return Largest Numbers in Arrays]()
+        * [Confirm the Ending]()
+        * [Repeat a string repeat a string]()
+        * [Truncate a string]()
+        * [Chunky Monkey]()
+        * [Slasher Flick]()
+        * [Mutations]()
+        * [Falsy Bouncer]()
+        * [Seek and Destroy]()
+        * [Where do I belong]()
+        * [Caesars Cipher]()
+
+
+
+
