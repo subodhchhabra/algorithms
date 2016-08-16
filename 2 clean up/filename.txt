@@ -1,0 +1,5 @@
+ls $search_path > filename.txt
+
+ls $search_path | grep *.txt > filename.txt
+
+ls > file.txt
