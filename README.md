@@ -1,22 +1,25 @@
+# Algorithm Practise Area
+Solutions to random algorithmic problems.
 
-* Free Code Camp 
-    * Basic Algorithm Scripting
-        * [Reverse a String](#reverse-a-string)
-        * [Factorialize a Number]()
-        * [Check for Palindromes]()
-        * [Find the Longest Word in a String]()
-        * [Title Case a Sentence]()
-        * [Return Largest Numbers in Arrays]()
-        * [Confirm the Ending]()
-        * [Repeat a string repeat a string]()
-        * [Truncate a string]()
-        * [Chunky Monkey]()
-        * [Slasher Flick]()
-        * [Mutations]()
-        * [Falsy Bouncer]()
-        * [Seek and Destroy]()
-        * [Where do I belong]()
-        * [Caesars Cipher]()
+## From Free Code Camp 
+### Basic Algorithm Scripting
+* [Reverse a String](#reverse-a-string)
+* [Factorialize a Number](#factorialize-a-number)
+* [Check for Palindromes](#check-for-palindromes))
+* [Find the Longest Word in a String](#find-the-longest-word-in-a-string)
+* [Title Case a Sentence](#title-case-a-sentence)
+* [Return Largest Numbers in Arrays](#return-largest-numbers-in-arrays)
+* [Confirm the Ending](#confirm-the-ending)
+* [Repeat a string repeat a string](#repeat-a-string-repeat-a-string)
+* [Truncate a string](#truncate-a-string)
+* [Chunky Monkey](#chunky-monkey)
+* [Slasher Flick](#slasher-flick)
+* [Mutations](#mutations)
+* [Falsy Bouncer](#falsy-bouncer)
+* [Seek and Destroy](#seek-and-destroy)
+* [Where do I belong](#where-do-i-belong)
+* [Caesars Cipher](#caesars-cipher)
+
 
 
 
@@ -125,24 +128,23 @@ For this challenge you will be presented with a string such as 800-692-7753 or 8
 #### [inventoryUpdate.js](inventoryUpdate.js)
 Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
 
-### Reverse a String
 
-        * [Reverse a String]()
-        * [Factorialize a Number]()
-        * [Check for Palindromes]()
-        * [Find the Longest Word in a String]()
-        * [Title Case a Sentence]()
-        * [Return Largest Numbers in Arrays]()
-        * [Confirm the Ending]()
-        * [Repeat a string repeat a string]()
-        * [Truncate a string]()
-        * [Chunky Monkey]()
-        * [Slasher Flick]()
-        * [Mutations]()
-        * [Falsy Bouncer]()
-        * [Seek and Destroy]()
-        * [Where do I belong]()
-        * [Caesars Cipher]()
+#### Reverse a String
+#### Factorialize a Number
+#### Check for Palindromes
+#### Find the Longest Word in a String
+#### Title Case a Sentence
+#### Return Largest Numbers in Arrays
+#### Confirm the Ending
+#### Repeat a string repeat a string
+#### Truncate a string
+#### Chunky Monkey
+#### Slasher Flick
+#### Mutations
+#### Falsy Bouncer
+#### Seek and Destroy
+#### Where do I belong
+#### Caesars Cipher
 
 
 
