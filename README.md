@@ -20,115 +20,6 @@ Solutions to random algorithmic problems.
 * [Where do I belong](#where-do-i-belong)
 * [Caesars Cipher](#caesars-cipher)
 
-
-
-
-
-
-### Practise area
-Solutions to random algorithmic problems
-
-#### [Roman Numerals](romanNumerals.js)
-Convert the given number into a roman numeral. All roman numerals answers should be provided in upper-case.
-
-```
-convert(3999);
-=> "MMMDCMXCIX"
-```
-#### [Flatten Array With Recursion](flattenArrayWithRecursion.js)
-Flatten a nested array. You must account for varying levels of nesting.
-
-```
-steamroller([1, {}, [3, [[4]]]]);
-=> [1, {}, 3, 4].
-```
-
-#### [argumentsOptional.js](argumentsOptional.js)
-Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
-
-#### [binary2ASCII.js](binary2ASCII.js)
-Return an English translated sentence of the passed binary string.
-```
-binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
-
-=> "Aren't bonfires fun!?"
-```
-
-#### [checkStrEnd.js](checkStrEnd.js)
-
-#### [diffTwoArray.js](diffTwoArray.js)
-Compare two arrays and return a new array with any items not found in both of the original arrays.
-#### [dropArrayFront.js](dropArrayFront.js)
-Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true.
-#### [factorial.js](factorial.js)
-
-#### [insertElementWhere.js](insertElementWhere.js)
-Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted.
-#### [largestNumInSubarray.js](largestNumInSubarray.js)
-#### [longestString.js](longestString.js)
-#### [matchingObjectProperty.js](matchingObjectProperty.js)
-Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching property and value pairs (second argument). Each property and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
-#### [missingLetters.js](missingLetters.js)
-Find the missing letter in the passed letter range and return it. If all letters are present in the range, return undefined.
-#### [oddFibonacci.js](oddFibonacci.js)
-Return the sum of all odd Fibonacci numbers up to and including the passed number if it is a Fibonacci number.
-#### [PairDNA.js](PairDNA.js)
-The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array. Base pairs are a pair of AT and CG. Match the missing element to the provided character. Return the provided character as the first element in each array.
-#### [palindrom.js](palindrom.js)
-#### [pigLatin.js](pigLatin.js)
-Translate the provided string to pig latin. Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay". If a word begins with a vowel you just add "way" to the end.
-#### [removeArrayElements.js](removeArrayElements.js)
-Remove all falsy values from an array. Falsy values in javascript are false, null, 0, "", undefined, and NaN.
-#### [removeArrayFrontElements.js](removeArrayFrontElements.js)
-#### [removeGivenArrayElementAll.js](removeGivenArrayElementAll.js)
-You will be provided with an initial array (the first argument in the destroyer function), followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.
-#### [repeatString.js](repeatString.js)
-#### [reverseString.js](reverseString.js)
-
-#### [searchAndReplaceString.js](searchAndReplaceString.js)
-Perform a search and replace on the sentence using the arguments provided and return the new sentence. First argument is the sentence to perform the search and replace on. Second argument is the word that you will be replacing (before). Third argument is what you will be replacing the second argument with (after). NOTE: Preserve the case of the original word when you are replacing it. For example if you mean to replace the word "Book" with the word "dog", it should be replaced as "Dog"
-#### [searchObjectsKey.js](searchObjectsKey.js)
-Check if the predicate (second argument) is truthy on all elements of a collection (first argument). Remember, you can access object properties through either dot notation or [] notation.
-#### [spinalTapCase.js](spinalTapCase.js)
-Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
-#### [splitArrayIntoSmaller.js](splitArrayIntoSmaller.js)
-Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a multidimensional array.
-#### [stringOneinStringTwo.js](stringOneinStringTwo.js)
-Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.
-#### [sumNumRange.js](sumNumRange.js)
-We'll pass you an array of two numbers. Return the sum of those two numbers and all numbers between them.
-#### [sumOfPrimes.js](sumOfPrimes.js)
-Sum all the prime numbers up to and including the provided number.
-#### [titleCaseSentence.js](titleCaseSentence.js)
-
-#### [truncateString.js](truncateString.js)
-Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a "..." ending.
-#### [truthInArray.js](truthInArray.js)
-Create a function that looks through an array (first argument) and returns the first element in the array that passes a truth test (second argument).
-
-#### [caesarsCipher.js](caesarsCipher.js)
-One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
-
-A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.
-
-#### [phoneNumUSA.js](phoneNumUSA.js)
-Return true if the passed string is a valid US phone number.
-
-The user may fill out the form field any way they choose as long as it is a valid US number. The following are examples of valid formats for US numbers (refer to the tests below for other variants):
-```
-555-555-5555
-(555)555-5555
-(555) 555-5555
-555 555 5555
-5555555555
-1 555 555 5555
-```
-For this challenge you will be presented with a string such as 800-692-7753 or 8oo-six427676;laskdjf. Your job is to validate or reject the US phone number based on any combination of the formats provided above. The area code is required. If the country code is provided, you must confirm that the country code is 1. Return true if the string is a valid US phone number; otherwise return false.
-
-#### [inventoryUpdate.js](inventoryUpdate.js)
-Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
-
-
 #### Reverse a String
 ##### Rules from [FCC](https://www.freecodecamp.com/challenges/reverse-a-string) as of 2016/08/16.
 
@@ -172,13 +63,13 @@ function factorialize(num) {
   return result;
 }
 
-factorialize(5)
+factorialize(5);
 // 120
-factorialize(10)
+factorialize(10);
 // 3628800
-factorialize(20)
+factorialize(20);
 // 2432902008176640000
-factorialize(0)
+factorialize(0);
 // 1
 ```
 #### Check for Palindromes
@@ -205,29 +96,29 @@ function palindrome(str) {
   return str === workingStr;
 }
 
-palindrome("eye")
+palindrome("eye");
 // true
-palindrome("_eye")
+palindrome("_eye");
 // true
-palindrome("race car")
+palindrome("race car");
 // true
-palindrome("not a palindrome")
+palindrome("not a palindrome");
 // false
-palindrome("A man, a plan, a canal. Panama")
+palindrome("A man, a plan, a canal. Panama");
 // true
-palindrome("never odd or even")
+palindrome("never odd or even");
 // true
-palindrome("nope")
+palindrome("nope");
 // false
-palindrome("almostomla")
+palindrome("almostomla");
 // false
-palindrome("My age is 0, 0 si ega ym.")
+palindrome("My age is 0, 0 si ega ym.");
 // true
-palindrome("1 eye for of 1 eye.")
+palindrome("1 eye for of 1 eye.");
 // false
-palindrome("0_0 (: /-\ :) 0-0")
+palindrome("0_0 (: /-\ :) 0-0");
 // true
-palindrome("five|\_/|four")
+palindrome("five|\_/|four");
 // false
 ```
 #### Find the Longest Word in a String
@@ -252,15 +143,15 @@ function findLongestWord(str) {
   return longest;
 }
 
-findLongestWord("The quick brown fox jumped over the lazy dog")
+findLongestWord("The quick brown fox jumped over the lazy dog");
 // 6
-findLongestWord("May the force be with you")
+findLongestWord("May the force be with you");
 // 5
-findLongestWord("Google do a barrel roll")
+findLongestWord("Google do a barrel roll");
 // 6
-findLongestWord("What is the average airspeed velocity of an unladen swallow")
+findLongestWord("What is the average airspeed velocity of an unladen swallow");
 // 8
-findLongestWord("What if we try a super-long word such as otorhinolaryngology")
+findLongestWord("What if we try a super-long word such as otorhinolaryngology");
 // 19
 ```
 
@@ -283,11 +174,11 @@ function titleCase(str) {
 
   return str;
 }
-titleCase("I'm a little tea pot")
+titleCase("I'm a little tea pot");
 // "I'm A Little Tea Pot"
-titleCase("sHoRt AnD sToUt")
+titleCase("sHoRt AnD sToUt");
 // "Short And Stout"
-titleCase("HERE IS MY HANDLE HERE IS MY SPOUT")
+titleCase("HERE IS MY HANDLE HERE IS MY SPOUT");
 // "Here Is My Handle Here Is My Spout"
 ```
 
@@ -318,9 +209,9 @@ function largestOfFour(arr) {
   return answerArr;
 }
 
-largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]])
+largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 // [27,5,39,1001]
-largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]])
+largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]);
 // [9, 35, 97, 1000000]
 ```
 
@@ -337,19 +228,19 @@ function confirmEnding(str, target) {
   return checkStr === target;
 }
 
-confirmEnding("Bastian", "n")
+confirmEnding("Bastian", "n");
 // true
-confirmEnding("Connor", "n")
+confirmEnding("Connor", "n");
 // false
-confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")
+confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification");
 // false
-confirmEnding("He has to give me a new name", "name")
+confirmEnding("He has to give me a new name", "name");
 // true
-confirmEnding("Open sesame", "same")
+confirmEnding("Open sesame", "same");
 // true
-confirmEnding("Open sesame", "pen")
+confirmEnding("Open sesame", "pen");
 // false
-confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")
+confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain");
 // false
 
 ```
@@ -377,17 +268,17 @@ function repeatStringNumTimes(str, num) {
   }
 }
 
-repeatStringNumTimes("*", 3) 
+repeatStringNumTimes("*", 3);
 // "***"
-repeatStringNumTimes("abc", 3) 
+repeatStringNumTimes("abc", 3);
 // "abcabcabc"
-repeatStringNumTimes("abc", 4) 
+repeatStringNumTimes("abc", 4);
 // "abcabcabcabc"
-repeatStringNumTimes("abc", 1) 
+repeatStringNumTimes("abc", 1);
 // "abc"
-repeatStringNumTimes("*", 8) 
+repeatStringNumTimes("*", 8);
 // "********"
-repeatStringNumTimes("abc", -2) 
+repeatStringNumTimes("abc", -2);
 // ""
 ```
 #### Truncate a string
@@ -646,7 +537,7 @@ function rot13(str) { // LBH QVQ VG!
     if(position > -1 ){
       answer.push(original[position]);
     } else {
-      answer.push(strArray[i]);    
+      answer.push(strArray[i]);
     }
   }
 
@@ -663,6 +554,3 @@ rot13("SERR YBIR?");
 rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.");
 // "THE QUICK BROWN DOG JUMPED OVER THE LAZY FOX."
 ```
-
-
-
